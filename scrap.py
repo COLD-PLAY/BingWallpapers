@@ -4,7 +4,7 @@ import re
 
 urlpath = 'http://cn.bing.com/'
 regex = '{url: "(.*jpg)"'
-local = 'D:\\bing_wallpapers\\%s.jpg' % ('%d-%d-%d' % time.localtime()[0:3])
+local = '/bing_wallpapers/%s.jpg' % ('%d-%d-%d' % time.localtime()[0:3])
 # local = 'bing.jpg'
 
 def callbackfunc(blocknum, blocksize, totalsize):
